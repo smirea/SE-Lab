@@ -1,0 +1,178 @@
+.ui-state-highlight {
+  display: inline-block;
+  height: 100px;
+  width: 350px;
+}
+#users, #groups {
+  list-style-type: none;
+}
+.group {
+  background: #ddd;
+  padding: 5px;
+}
+.face {
+  display: inline-block;
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 350px;
+  margin: 5px;
+  font-family: arial;
+  font-size: 10pt;
+  list-style-type: none;
+}
+.face:hover {
+  background: lightgreen;
+}
+.face td {
+  vertical-align: top;
+}
+.face .photo {
+  width: 75px;
+  text-align: center;
+  vertical-align: middle;
+}
+.face .photo img {
+  max-height: 100px;
+  max-width: 75px;
+}
+.face .data {
+  padding: 5px;
+}
+.face .data h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+}
+.face .data h4 {
+  margin: 0;
+  padding: 0;
+  font-size: 11pt;
+  color: #666;
+}
+.face .actions {
+  border-right: 1px solid #ccc;
+  width: 50px;
+  text-align: right;
+}
+.face .action {
+  font-size: 9pt;
+}
+
+.face-tiny {
+  display: inline-block;
+  border: 1px solid #666;
+  background: #fff;
+  margin: 2px 4px;
+  font-size: 10pt;
+  text-decoration: none;
+  color: #444;
+}
+.face-tiny:hover {
+  background: lightgreen;
+  text-decoration: none;
+}
+.face-tiny img {
+  border: 0;
+  max-width: 24px;
+  max-height: 24px;
+}
+.face-tiny .name {
+  display: inline-block;
+  padding: 0 5px 0 2px;
+}
+.face-tiny .group-number {
+  display: inline-block;
+  background: #333;
+  padding: 0 5px;
+  font-weight: bold;
+  line-height: 24px;
+  color: #fff;
+}
+
+.content-block {
+  border: 1px solid #666;
+  background: #eee;
+  margin: 5px;
+  padding: 5px;
+}
+
+.teammates {
+  background: orange!important;
+}
+
+#phase-change a {
+  display: inline-block;
+  margin: 0 5px;
+  font-weight: bold;
+}
+#phase-change a:hover {
+  color: crimson;
+}
+
+/*.clearfix {*zoom:1;}
+.clearfix:before, .clearfix:after {display:table; content:"";}
+.clearfix:after {clear:both;}*/
+
+/*** TABLE CLASSES ***/
+.peer-evaluation {
+  border: 1px solid #333;
+  background: #fff;
+  width: auto;
+  margin: 5px;
+  font-size: 9pt;
+}
+.peer-evaluation th {
+  text-align: center;
+  vertical-align: middle;
+}
+.peer-evaluation tr:nth-child(2n) {
+  background: #ddd;
+}
+.peer-evaluation td:nth-child(2n) {
+  background: rgba(150, 150, 200, 0.2);
+}
+.peer-evaluation .group-number {
+  background: #333;
+  font-weight: bold;
+  color: #fff;
+}
+.peer-evaluation .score {
+  width: 80px;
+  text-align: center;
+}
+.peer-evaluation .name {
+  min-width: 120px;
+  font-size: 10pt;
+  text-align: center;
+}
+.peer-evaluation .name img {
+  float: left;
+  max-width: 60px;
+  max-height: 60px;
+}
+.peer-evaluation .comment {
+  max-width: 800px;
+}
+.score-cell {
+  display: inline-block;
+  border: 1px solid #999;
+  background: #fff;
+  margin: 2px;
+  padding: 0;
+}
+.score-cell .value {
+  display: inline-block;
+  padding: 0 3px;
+  font-weight: bold;
+}
+.score-cell img {
+  max-width: 24px;
+  max-height: 24px;
+}
+.score {
+  vertical-align: middle;
+}
+.score .value {
+  font-size: 20pt;
+  font-weight: bold;
+}

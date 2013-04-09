@@ -1,0 +1,6 @@
+# ignore the customized config file
+/config.php
+
+last_backup.sql
+
+.DS_Store
